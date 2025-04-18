@@ -186,6 +186,7 @@ namespace SCREEN {
         constexpr uint16_t mwh_color = TFT_GREEN;     // mWH颜色
         constexpr uint16_t time_color = TFT_BLUE;     // 时间颜色
 
+
         // 显示累计毫安时
         auto draw_output_mah = []() {
             char buffer[4];
