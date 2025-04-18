@@ -457,12 +457,12 @@ namespace SCREEN {
             tft.endWrite();
             delay(750);
             // 重邮和HXC LOGO
-            tft.startWrite();
-            clk.fillSprite(TFT_BLACK);
-            clk.pushImage(0, 0, CQUPTHXC_LOGO_WIDTH, CQUPTHXC_LOGO_HEIGHT, CQUPTHXC_LOGO);
-            clk.pushSprite(0, 0);
-            tft.endWrite();
-            delay(750);
+            // tft.startWrite();
+            // clk.fillSprite(TFT_BLACK);
+            // clk.pushImage(0, 0, CQUPTHXC_LOGO_WIDTH, CQUPTHXC_LOGO_HEIGHT, CQUPTHXC_LOGO);
+            // clk.pushSprite(0, 0);
+            // tft.endWrite();
+            // delay(750);
 
             // 嘉立创LOGO
             // tft.startWrite();
